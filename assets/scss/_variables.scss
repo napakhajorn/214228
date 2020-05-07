@@ -1,4 +1,15 @@
 $white: #ffffff;
+@font-face {
+    font-family: 'sutregular';
+    src: url('../fonts/sut_regular_ver_1.00-webfont.eot');
+    src: url('../fonts/sut_regular_ver_1.00-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sut_regular_ver_1.00-webfont.woff2') format('woff2'),
+         url('../fonts/sut_regular_ver_1.00-webfont.woff') format('woff'),
+         url('../fonts/sut_regular_ver_1.00-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0E00–U+0E7F;
+}
 $sutfont: "sutregular";
 $c1:rgba(221, 32, 106, 1) 0%;
 $c2: rgba(222, 38, 104, 1) 22%;
