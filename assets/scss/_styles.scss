@@ -1,7 +1,17 @@
+@font-face {
+    font-family: 'sutregular';
+    src: url('../fonts/sut_regular_ver_1.00-webfont.eot');
+    src: url('../fonts/sut_regular_ver_1.00-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sut_regular_ver_1.00-webfont.woff2') format('woff2'),
+         url('../fonts/sut_regular_ver_1.00-webfont.woff') format('woff'),
+         url('../fonts/sut_regular_ver_1.00-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
 /* ========================== banner ========================== */
 .banner_container {
     text-align: left;
-    
     }
     
     /* ========================== banner ========================== */
@@ -11,7 +21,7 @@
     }
     
     .header_content {
-    font-family: $sutfont;
+    font-family: 'sutregular';
     width: 100%;
     height: auto;
     margin: 0 0 0vh 0;
@@ -31,7 +41,7 @@
     }
     
     .flex-row {
-    font-family: $sutfont;
+    font-family: 'sutregular';
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -96,7 +106,7 @@
     grid-template-columns: 0;
     }
     .contact_us {
-    font-family: $sutfont;
+    font-family: 'sutregular';
     color: $white;
     text-align: left;
     padding: 1rem 0 2rem 0;
